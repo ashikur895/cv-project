@@ -1,0 +1,134 @@
+*{padding: 0;margin: 0;}
+body{background-color: whitesmoke;font-family: 'Lato', sans-serif;}
+.container{
+    max-width: 1000px;
+    background-color:aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-img{
+    width: 100px;
+ height: 120px;
+ border: 3px solid wheat;
+ border-radius: 50%;
+
+ float: left;
+}
+.header-profile{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*#content{
+    
+}*/
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    float: right;
+}
+.add{
+    color:black;
+}
+
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*#work{
+    
+
+}*/
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: right;
+
+}
+.w{color: black;}
+.work-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*#Education{}*/
+.left-edu{
+    width: 30%;
+    float: left;
+}
+.right-edu{
+    width: 70%;
+    float: right;
+}
+.d{border: 5px solid black;border-collapse:collapse;width: 100%;}
+.t{border: 2px solid black; background-color: darkgreen; font-size: 20px;padding: 5px;vertical-align: right;}
+.de{border: 2px solid black;font-size: 20px;padding: 5px;}
+th,td{text-align: center;}
+tr:nth-child(even){background-color:royalblue;}
+tr:nth-child(odd){background-color: rgb(128, 0, 85);}
+tr:hover{background-color: blue;}  
+.edu-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+   .bottom {
+    background-color: black;
+       text-align: center;
+       
+       padding: 10px;
+       
+
+   }
+   .bottom a{ 
+    background-color: black;
+       color: wheat;
+       text-decoration: none;
+       margin: 20px;
+       
+   }
+   .bottom p{
+    color: white;
+    margin-top: 20px;
+   }
+   .bottom a:hover{
+    text-decoration: underline;
+    color: tomato;
+   }
